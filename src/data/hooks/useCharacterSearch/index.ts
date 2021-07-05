@@ -12,11 +12,9 @@ export function useCharacterSearch(
     [hasError, setHasError] = useState(false),
     [hasNext, setHasNext] = useState(false),
     [hasPrevious, setHasPrevious] = useState(false);
-  console.log("characters: ", characters);
 
   useEffect(() => {
     setIsLoading(true);
-    setHasError(true);
     axios({
       method: "get",
       url: `https://rickandmortyapi.com/api/character/`,
@@ -27,15 +25,13 @@ export function useCharacterSearch(
     })
       .then((response) => {
         setCharacters(response.data.results);
-        console.log(response.data);
         setHasError(false);
         setHasNext(response.data.info.next !== null);
         setHasPrevious(response.data.info.prev !== null);
         setIsLoading(false);
       })
       .catch((error) => {
-        setHasError(false);
-        if (axios.isCancel(error)) return;
+        setHasError(true);
       });
   }, [searchedCharacter, pageNumber]);
 

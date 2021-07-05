@@ -49,8 +49,6 @@ export function Home() {
     document.documentElement.scrollTop = 0;
   }
 
-  console.log(isLoading, hasError);
-
   return (
     <Container>
       <Header>
