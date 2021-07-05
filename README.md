@@ -1,15 +1,14 @@
 <h1 align="center">
-    <img alt="RickAndMorty" title="RickAndMorty" src=".github/logo.png" />
+    <img alt="Rick And Morty" title="Rick And Morty" src=".github/logo.png" />
 </h1>
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-howtorun">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-prerequisites">Prerequisites to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;	
+  <a href="#%EF%B8%8F-prerequisites-to-run">Prerequisites to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
-
-<p
 
 ## 🚀 Technologies
 
@@ -30,9 +29,9 @@ Select favorites characters from the Rick And Morty sitcom.
 
 ## 🏃‍♂️ How to run
 
-    1 - Clone this project using `git clone https://github.com/pgThiago/RickAndMorty.git` command.
-    2 - In the project root run `yarn` to install all dependencies.
-    3 - Run `yarn start` to start the application in http://localhost:3000.
+    1 - Clone this project using ```git clone https://github.com/pgThiago/RickAndMorty.git``` command.
+    2 - In the project root run ```yarn``` to install all dependencies.
+    3 - Run ```yarn start``` to start the application in http://localhost:3000.
 
 ## :memo: License
 
