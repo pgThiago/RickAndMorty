@@ -29,9 +29,9 @@ Select favorites characters from the Rick And Morty sitcom.
 
 ## 🏃‍♂️ How to run
 
-    1 - Clone this project using ```git clone https://github.com/pgThiago/RickAndMorty.git``` command.
-    2 - In the project root run ```yarn``` to install all dependencies.
-    3 - Run ```yarn start``` to start the application in http://localhost:3000.
+1 - Clone this project using `git clone https://github.com/pgThiago/RickAndMorty.git` command.
+2 - In the project root run `yarn` to install all dependencies.
+3 - Run `yarn start` to start the application in http://localhost:3000.
 
 ## :memo: License
 
